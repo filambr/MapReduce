@@ -40,7 +40,12 @@ and several redcer methods:
 ## Task 1 
 Having in mind data/clicks dataset with "date" column, count how many clicks there were for each date and write the results to data/total_clicks dataset with "date" and "count" columns.
 
-1. ##### <span style="color:CornflowerBlue ">First, let's read data into a table.</span>
+ ##### <span style="color:CornflowerBlue ">Import dependencies.</span>
+
+```
+from table import Table, MapReduce
+```
+1. ##### <span style="color:CornflowerBlue ">Let's read data into a table.</span>
 
 ```
 number_of_nodes = 1
