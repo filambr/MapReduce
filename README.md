@@ -1,27 +1,3 @@
-### This is my naive implementation of MapReduce, it was implemented and tested in Python version 3.10.6. Only standart python library is nescicery to use it. 
-
-#### Methods in MapReduce:
-
-* mapper - maps and shuffles, retruns shuffled map over a key
-
-and several redcer methods: 
-
-* counter_grouped - counts entries over keys
-
-* aggregate_grouped - aggregates (min, max or sum) over values that corenspond to keys
-
-* join - calculates cartesian product of two maps and joins them
-
-* filter - selects single key, value pair form shuffled map 
-
-* select - selects myltiple columns
-
-* drop - removes multiple columns
-
-
-
-#### Class Table is a wrapper class around MapReduce for convinience, sintax design was inspired by pySpark.SQL.
-
 ### This is my naive implementation of MapReduce, it was implemented and tested in Python version 3.10.6. Only standard python library is necessary to use it.
 
 #### Methods in MapReduce:
