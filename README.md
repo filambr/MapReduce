@@ -97,13 +97,11 @@ path1 = '/home/filambr/Documents/vinted_homework/data/clicks/'
 schema1 = {'date':str, 'user_id':int, 'click_target':str}
 table1 = Table(folder_path = path1, schema = schema1,  number_of_nodes=number_of_nodes) 
 print(f'Table from {path1}')
-table1.show()
 
 path2 = '/home/filambr/Documents/vinted_homework/data/users/'
 schema2 = {'id': int, 'city':str,'country': str}
 table2 = Table(folder_path = path2, schema = schema2, number_of_nodes=number_of_nodes) 
 print(f'Table from {path2}')
-table2.show()
 ```
 
 2. ##### <span style="color:CornflowerBlue ">Lets join tables on 'user_id' and 'id'.</span>
